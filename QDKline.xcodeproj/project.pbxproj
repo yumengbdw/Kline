@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B8CA01F12B47C8698AD4035 /* libPods-QDKline.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3BC62E0DC561B51CC0C718 /* libPods-QDKline.a */; };
+		BBFDABD72119717F00C1C269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABD62119717F00C1C269 /* AppDelegate.m */; };
+		BBFDABDA2119717F00C1C269 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABD92119717F00C1C269 /* ViewController.m */; };
+		BBFDABDD2119717F00C1C269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFDABDB2119717F00C1C269 /* Main.storyboard */; };
+		BBFDABDF2119718200C1C269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBFDABDE2119718200C1C269 /* Assets.xcassets */; };
+		BBFDABE22119718200C1C269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFDABE02119718200C1C269 /* LaunchScreen.storyboard */; };
+		BBFDABE52119718200C1C269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABE42119718200C1C269 /* main.m */; };
+		BBFDABF4211971C600C1C269 /* QDTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABEC211971C500C1C269 /* QDTimeLineView.m */; };
+		BBFDABF5211971C700C1C269 /* QDDeepBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABED211971C500C1C269 /* QDDeepBackGroundView.m */; };
+		BBFDABF6211971C700C1C269 /* QDCursorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABEF211971C600C1C269 /* QDCursorView.m */; };
+		BBFDABF7211971C700C1C269 /* DeepView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABF1211971C600C1C269 /* DeepView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DB173E44B98762861BD64E1 /* Pods-QDKline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDKline.release.xcconfig"; path = "Pods/Target Support Files/Pods-QDKline/Pods-QDKline.release.xcconfig"; sourceTree = "<group>"; };
+		81DA7B1B5BA4D62DD24DD802 /* Pods-QDKline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDKline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QDKline/Pods-QDKline.debug.xcconfig"; sourceTree = "<group>"; };
+		AB3BC62E0DC561B51CC0C718 /* libPods-QDKline.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QDKline.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFDABD22119717F00C1C269 /* QDKline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QDKline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFDABD52119717F00C1C269 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBFDABD62119717F00C1C269 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBFDABD82119717F00C1C269 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBFDABD92119717F00C1C269 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBFDABDC2119717F00C1C269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBFDABDE2119718200C1C269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBFDABE12119718200C1C269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBFDABE32119718200C1C269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBFDABE42119718200C1C269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBFDABEC211971C500C1C269 /* QDTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDTimeLineView.m; sourceTree = "<group>"; };
+		BBFDABED211971C500C1C269 /* QDDeepBackGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDDeepBackGroundView.m; sourceTree = "<group>"; };
+		BBFDABEE211971C600C1C269 /* QDCursorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCursorView.h; sourceTree = "<group>"; };
+		BBFDABEF211971C600C1C269 /* QDCursorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCursorView.m; sourceTree = "<group>"; };
+		BBFDABF0211971C600C1C269 /* QDDeepBackGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDDeepBackGroundView.h; sourceTree = "<group>"; };
+		BBFDABF1211971C600C1C269 /* DeepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeepView.m; sourceTree = "<group>"; };
+		BBFDABF2211971C600C1C269 /* QDTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDTimeLineView.h; sourceTree = "<group>"; };
+		BBFDABF3211971C600C1C269 /* DeepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBFDABCF2119717F00C1C269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8CA01F12B47C8698AD4035 /* libPods-QDKline.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F03D6326BD2727079743C53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81DA7B1B5BA4D62DD24DD802 /* Pods-QDKline.debug.xcconfig */,
+				7DB173E44B98762861BD64E1 /* Pods-QDKline.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AAEF78D5465BD6CF9163B96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB3BC62E0DC561B51CC0C718 /* libPods-QDKline.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBFDABC92119717F00C1C269 = {
+			isa = PBXGroup;
+			children = (
+				BBFDABD42119717F00C1C269 /* QDKline */,
+				BBFDABD32119717F00C1C269 /* Products */,
+				1F03D6326BD2727079743C53 /* Pods */,
+				9AAEF78D5465BD6CF9163B96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BBFDABD32119717F00C1C269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBFDABD22119717F00C1C269 /* QDKline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBFDABD42119717F00C1C269 /* QDKline */ = {
+			isa = PBXGroup;
+			children = (
+				BBFDABEB211971A000C1C269 /* DeepView */,
+				BBFDABD52119717F00C1C269 /* AppDelegate.h */,
+				BBFDABD62119717F00C1C269 /* AppDelegate.m */,
+				BBFDABD82119717F00C1C269 /* ViewController.h */,
+				BBFDABD92119717F00C1C269 /* ViewController.m */,
+				BBFDABDB2119717F00C1C269 /* Main.storyboard */,
+				BBFDABDE2119718200C1C269 /* Assets.xcassets */,
+				BBFDABE02119718200C1C269 /* LaunchScreen.storyboard */,
+				BBFDABE32119718200C1C269 /* Info.plist */,
+				BBFDABE42119718200C1C269 /* main.m */,
+			);
+			path = QDKline;
+			sourceTree = "<group>";
+		};
+		BBFDABEB211971A000C1C269 /* DeepView */ = {
+			isa = PBXGroup;
+			children = (
+				BBFDABF3211971C600C1C269 /* DeepView.h */,
+				BBFDABF1211971C600C1C269 /* DeepView.m */,
+				BBFDABEE211971C600C1C269 /* QDCursorView.h */,
+				BBFDABEF211971C600C1C269 /* QDCursorView.m */,
+				BBFDABF0211971C600C1C269 /* QDDeepBackGroundView.h */,
+				BBFDABED211971C500C1C269 /* QDDeepBackGroundView.m */,
+				BBFDABF2211971C600C1C269 /* QDTimeLineView.h */,
+				BBFDABEC211971C500C1C269 /* QDTimeLineView.m */,
+			);
+			path = DeepView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBFDABD12119717F00C1C269 /* QDKline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBFDABE82119718200C1C269 /* Build configuration list for PBXNativeTarget "QDKline" */;
+			buildPhases = (
+				256464E354E0561D702DEB38 /* [CP] Check Pods Manifest.lock */,
+				BBFDABCE2119717F00C1C269 /* Sources */,
+				BBFDABCF2119717F00C1C269 /* Frameworks */,
+				BBFDABD02119717F00C1C269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QDKline;
+			productName = QDKline;
+			productReference = BBFDABD22119717F00C1C269 /* QDKline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBFDABCA2119717F00C1C269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "🐟猛";
+				TargetAttributes = {
+					BBFDABD12119717F00C1C269 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BBFDABCD2119717F00C1C269 /* Build configuration list for PBXProject "QDKline" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBFDABC92119717F00C1C269;
+			productRefGroup = BBFDABD32119717F00C1C269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBFDABD12119717F00C1C269 /* QDKline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBFDABD02119717F00C1C269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFDABE22119718200C1C269 /* LaunchScreen.storyboard in Resources */,
+				BBFDABDF2119718200C1C269 /* Assets.xcassets in Resources */,
+				BBFDABDD2119717F00C1C269 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		256464E354E0561D702DEB38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QDKline-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBFDABCE2119717F00C1C269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFDABDA2119717F00C1C269 /* ViewController.m in Sources */,
+				BBFDABF7211971C700C1C269 /* DeepView.m in Sources */,
+				BBFDABF6211971C700C1C269 /* QDCursorView.m in Sources */,
+				BBFDABE52119718200C1C269 /* main.m in Sources */,
+				BBFDABF4211971C600C1C269 /* QDTimeLineView.m in Sources */,
+				BBFDABF5211971C700C1C269 /* QDDeepBackGroundView.m in Sources */,
+				BBFDABD72119717F00C1C269 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBFDABDB2119717F00C1C269 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBFDABDC2119717F00C1C269 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBFDABE02119718200C1C269 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBFDABE12119718200C1C269 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBFDABE62119718200C1C269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBFDABE72119718200C1C269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBFDABE92119718200C1C269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81DA7B1B5BA4D62DD24DD802 /* Pods-QDKline.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDTUX2G5E5;
+				INFOPLIST_FILE = QDKline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantdo.viewLifecycle.QDKline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBFDABEA2119718200C1C269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB173E44B98762861BD64E1 /* Pods-QDKline.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDTUX2G5E5;
+				INFOPLIST_FILE = QDKline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantdo.viewLifecycle.QDKline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBFDABCD2119717F00C1C269 /* Build configuration list for PBXProject "QDKline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFDABE62119718200C1C269 /* Debug */,
+				BBFDABE72119718200C1C269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBFDABE82119718200C1C269 /* Build configuration list for PBXNativeTarget "QDKline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFDABE92119718200C1C269 /* Debug */,
+				BBFDABEA2119718200C1C269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBFDABCA2119717F00C1C269 /* Project object */;
+}
