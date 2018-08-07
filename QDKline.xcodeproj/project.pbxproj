@@ -18,6 +18,7 @@
 		BBFDABF5211971C700C1C269 /* QDDeepBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABED211971C500C1C269 /* QDDeepBackGroundView.m */; };
 		BBFDABF6211971C700C1C269 /* QDCursorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABEF211971C600C1C269 /* QDCursorView.m */; };
 		BBFDABF7211971C700C1C269 /* DeepView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABF1211971C600C1C269 /* DeepView.m */; };
+		BBFDABFB21197AD700C1C269 /* QDDeepVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABFA21197AD700C1C269 /* QDDeepVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		BBFDABF1211971C600C1C269 /* DeepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeepView.m; sourceTree = "<group>"; };
 		BBFDABF2211971C600C1C269 /* QDTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDTimeLineView.h; sourceTree = "<group>"; };
 		BBFDABF3211971C600C1C269 /* DeepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepView.h; sourceTree = "<group>"; };
+		BBFDABF921197AD700C1C269 /* QDDeepVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDDeepVC.h; sourceTree = "<group>"; };
+		BBFDABFA21197AD700C1C269 /* QDDeepVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDDeepVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,7 @@
 		BBFDABEB211971A000C1C269 /* DeepView */ = {
 			isa = PBXGroup;
 			children = (
+				BBFDABF821197AAB00C1C269 /* vc */,
 				BBFDABF3211971C600C1C269 /* DeepView.h */,
 				BBFDABF1211971C600C1C269 /* DeepView.m */,
 				BBFDABEE211971C600C1C269 /* QDCursorView.h */,
@@ -121,6 +125,15 @@
 				BBFDABEC211971C500C1C269 /* QDTimeLineView.m */,
 			);
 			path = DeepView;
+			sourceTree = "<group>";
+		};
+		BBFDABF821197AAB00C1C269 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				BBFDABF921197AD700C1C269 /* QDDeepVC.h */,
+				BBFDABFA21197AD700C1C269 /* QDDeepVC.m */,
+			);
+			path = vc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBFDABDA2119717F00C1C269 /* ViewController.m in Sources */,
+				BBFDABFB21197AD700C1C269 /* QDDeepVC.m in Sources */,
 				BBFDABF7211971C700C1C269 /* DeepView.m in Sources */,
 				BBFDABF6211971C700C1C269 /* QDCursorView.m in Sources */,
 				BBFDABE52119718200C1C269 /* main.m in Sources */,
