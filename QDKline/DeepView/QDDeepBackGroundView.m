@@ -7,8 +7,6 @@
 //
 
 #import "QDDeepBackGroundView.h"
-#import "QDTimeLineView.h"
-#import "DeepView.h"
 #import "QDCursorView.h"
 #import "Masonry.h"
 
@@ -20,11 +18,6 @@
 //  Copyright © 2018年 🐟猛. All rights reserved.
 //
 @interface QDDeepBackGroundView()
-
-@property (nonatomic, strong) DeepView *buyDeepView;
-@property (nonatomic, strong) DeepView *sellDeepView;
-
-@property (nonatomic, strong) QDCursorView *cursorView;
 
 @end
 
@@ -40,84 +33,41 @@
 }
 
 - (void)initView {
-    [self addSubview:self.buyDeepView];
-    [self addSubview:self.sellDeepView];
-    [self addSubview:self.cursorView];
+  
 }
 
 - (void)initMasony{
-    [self.buyDeepView mas_makeConstraints:^(MASConstraintMaker *make) {
-    }];
+   
 }
 
 
 - (void)layoutSubviews{
     [super layoutSubviews];
-    NSLog(@"-------layoutSubviews");
-    
 }
 
 - (void)drawRect:(CGRect)rect{
     [super drawRect:rect];
-    [self reloadTimeKline];
+    CGFloat lineLength[] = {3,3};
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    CGContextSetStrokeColorWithColor(ctx, [UIColor grayColor].CGColor);
+    CGContextSetLineDash(ctx,0,lineLength,2);
+    CGContextSetLineWidth(ctx, 0.5);
     
+    CGFloat unitHeight = CGRectGetHeight(self.frame)/4.0;
+    CGFloat width = CGRectGetWidth(self.frame);
+
+    //从上往下依次
+    CGPoint line1[] = {CGPointMake(0, 1),CGPointMake(width, 1)};
+    CGPoint line2[] = {CGPointMake(0, unitHeight),CGPointMake(width, unitHeight)};
+    CGPoint line3[] = {CGPointMake(0, 2*unitHeight),CGPointMake(width, 2*unitHeight)};
+    CGPoint line4[] = {CGPointMake(0, 3*unitHeight),CGPointMake(width, 3*unitHeight)};
+    CGPoint line5[] = {CGPointMake(0, 4*unitHeight - 1),CGPointMake(width, 4*unitHeight - 1)};
     
-    
-}
-
-- (void)reloadTimeKline{
-    NSArray *array = @[@"1",@"3",@"5",@"10",@"30",@"28",@"18",@"14",@"13",@"30",@"10",@"12",@"13",@"23",@"21",@"30",@"10",@"10",@"20",@"35"];
-}
-
-- (void)showCursorView:(NSSet<UITouch *> *)touches{
-    CGPoint point = [touches.anyObject locationInView:self];
-    self.cursorView.selectedPoint = point;
-    [self.cursorView setNeedsDisplay];
-    NSLog(@"%@",NSStringFromCGPoint(point));
-}
-
-- (void)hideTouchView{
-    
-}
-
-
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    [self showCursorView:touches];
-}
-
-- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    [self showCursorView:touches];
-}
-
-- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    [self showCursorView:touches];
-    
-}
-
-- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
-}
-
-
-- (DeepView *)buyDeepView{
-    if (!_buyDeepView) {
-        _buyDeepView = [[DeepView alloc] init];
-    }
-    return _buyDeepView;
-}
-
-- (DeepView *)sellDeepView{
-    if (!_sellDeepView) {
-        _sellDeepView = [[DeepView alloc] init];
-    }
-    return _sellDeepView;
-}
-
-- (QDCursorView *)cursorView{
-    if (!_cursorView) {
-        _cursorView = [[QDCursorView alloc] init];
-    }
-    return _cursorView;
+    CGContextStrokeLineSegments(ctx, line1, 2);
+    CGContextStrokeLineSegments(ctx, line2, 2);
+    CGContextStrokeLineSegments(ctx, line3, 2);
+    CGContextStrokeLineSegments(ctx, line4, 2);
+    CGContextStrokeLineSegments(ctx, line5, 2);
 }
 
 

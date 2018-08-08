@@ -1,5 +1,5 @@
 //
-//  DeepView.h
+//  QDDeepDrawView.h
 //  ViewLifecycle
 //
 //  Created by 🐟猛 on 2018/8/2.
@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DeepView : UIView
+typedef NS_ENUM(NSInteger,DeepViewType) {
+    DeepViewTypeBuy = 1,    //K线
+    DeepViewTypeSell
+};
+
+@interface QDDeepDrawView : UIView
 
 @property (nonatomic, strong) NSArray *dataArray;
+@property (nonatomic, assign) DeepViewType deepType;
 
 
 - (NSArray *)configDataDrawModels:(NSArray *)drawLineModels  maxValue:(CGFloat)maxValue minValue:(CGFloat)minValue;

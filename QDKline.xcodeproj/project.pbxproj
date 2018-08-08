@@ -14,11 +14,11 @@
 		BBFDABDF2119718200C1C269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBFDABDE2119718200C1C269 /* Assets.xcassets */; };
 		BBFDABE22119718200C1C269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFDABE02119718200C1C269 /* LaunchScreen.storyboard */; };
 		BBFDABE52119718200C1C269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABE42119718200C1C269 /* main.m */; };
-		BBFDABF4211971C600C1C269 /* QDTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABEC211971C500C1C269 /* QDTimeLineView.m */; };
 		BBFDABF5211971C700C1C269 /* QDDeepBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABED211971C500C1C269 /* QDDeepBackGroundView.m */; };
 		BBFDABF6211971C700C1C269 /* QDCursorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABEF211971C600C1C269 /* QDCursorView.m */; };
-		BBFDABF7211971C700C1C269 /* DeepView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABF1211971C600C1C269 /* DeepView.m */; };
+		BBFDABF7211971C700C1C269 /* QDDeepDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABF1211971C600C1C269 /* QDDeepDrawView.m */; };
 		BBFDABFB21197AD700C1C269 /* QDDeepVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABFA21197AD700C1C269 /* QDDeepVC.m */; };
+		BBFDABFE211983AC00C1C269 /* QDDeepView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABFD211983AC00C1C269 /* QDDeepView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,16 +35,16 @@
 		BBFDABE12119718200C1C269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBFDABE32119718200C1C269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBFDABE42119718200C1C269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BBFDABEC211971C500C1C269 /* QDTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDTimeLineView.m; sourceTree = "<group>"; };
 		BBFDABED211971C500C1C269 /* QDDeepBackGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDDeepBackGroundView.m; sourceTree = "<group>"; };
 		BBFDABEE211971C600C1C269 /* QDCursorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCursorView.h; sourceTree = "<group>"; };
 		BBFDABEF211971C600C1C269 /* QDCursorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCursorView.m; sourceTree = "<group>"; };
 		BBFDABF0211971C600C1C269 /* QDDeepBackGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDDeepBackGroundView.h; sourceTree = "<group>"; };
-		BBFDABF1211971C600C1C269 /* DeepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeepView.m; sourceTree = "<group>"; };
-		BBFDABF2211971C600C1C269 /* QDTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDTimeLineView.h; sourceTree = "<group>"; };
-		BBFDABF3211971C600C1C269 /* DeepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepView.h; sourceTree = "<group>"; };
+		BBFDABF1211971C600C1C269 /* QDDeepDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDDeepDrawView.m; sourceTree = "<group>"; };
+		BBFDABF3211971C600C1C269 /* QDDeepDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDDeepDrawView.h; sourceTree = "<group>"; };
 		BBFDABF921197AD700C1C269 /* QDDeepVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDDeepVC.h; sourceTree = "<group>"; };
 		BBFDABFA21197AD700C1C269 /* QDDeepVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDDeepVC.m; sourceTree = "<group>"; };
+		BBFDABFC211983AC00C1C269 /* QDDeepView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDDeepView.h; sourceTree = "<group>"; };
+		BBFDABFD211983AC00C1C269 /* QDDeepView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDDeepView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,14 +115,14 @@
 			isa = PBXGroup;
 			children = (
 				BBFDABF821197AAB00C1C269 /* vc */,
-				BBFDABF3211971C600C1C269 /* DeepView.h */,
-				BBFDABF1211971C600C1C269 /* DeepView.m */,
+				BBFDABF3211971C600C1C269 /* QDDeepDrawView.h */,
+				BBFDABF1211971C600C1C269 /* QDDeepDrawView.m */,
 				BBFDABEE211971C600C1C269 /* QDCursorView.h */,
 				BBFDABEF211971C600C1C269 /* QDCursorView.m */,
 				BBFDABF0211971C600C1C269 /* QDDeepBackGroundView.h */,
 				BBFDABED211971C500C1C269 /* QDDeepBackGroundView.m */,
-				BBFDABF2211971C600C1C269 /* QDTimeLineView.h */,
-				BBFDABEC211971C500C1C269 /* QDTimeLineView.m */,
+				BBFDABFC211983AC00C1C269 /* QDDeepView.h */,
+				BBFDABFD211983AC00C1C269 /* QDDeepView.m */,
 			);
 			path = DeepView;
 			sourceTree = "<group>";
@@ -230,10 +230,10 @@
 			files = (
 				BBFDABDA2119717F00C1C269 /* ViewController.m in Sources */,
 				BBFDABFB21197AD700C1C269 /* QDDeepVC.m in Sources */,
-				BBFDABF7211971C700C1C269 /* DeepView.m in Sources */,
+				BBFDABF7211971C700C1C269 /* QDDeepDrawView.m in Sources */,
+				BBFDABFE211983AC00C1C269 /* QDDeepView.m in Sources */,
 				BBFDABF6211971C700C1C269 /* QDCursorView.m in Sources */,
 				BBFDABE52119718200C1C269 /* main.m in Sources */,
-				BBFDABF4211971C600C1C269 /* QDTimeLineView.m in Sources */,
 				BBFDABF5211971C700C1C269 /* QDDeepBackGroundView.m in Sources */,
 				BBFDABD72119717F00C1C269 /* AppDelegate.m in Sources */,
 			);

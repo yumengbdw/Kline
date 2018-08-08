@@ -7,11 +7,12 @@
 //
 
 #import "QDDeepVC.h"
-#import "QDDeepBackGroundView.h"
+#import "QDDeepView.h"
+#import "Masonry.h"
 
 @interface QDDeepVC ()
 
-@property (nonatomic, strong) QDDeepBackGroundView *deepBGView;
+@property (nonatomic, strong) QDDeepView *deepView;
 
 @end
 
@@ -19,17 +20,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.edgesForExtendedLayout = UIRectEdgeNone;
     self.view.backgroundColor = [UIColor whiteColor];
+    [self initView];
+    
+}
+
+- (void)initView{
+    [self.view addSubview:self.deepView];
+    [self.deepView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.equalTo(self.view);
+        make.height.equalTo(@(510));
+        make.top.equalTo(self.view.mas_top).offset(20);
+    }];
     
 }
 
 
-- (QDDeepBackGroundView *)deepBGView{
-    if (!_deepBGView) {
-        _deepBGView = [[QDDeepBackGroundView alloc] init];
+- (QDDeepView *)deepView{
+    if (!_deepView) {
+        _deepView = [[QDDeepView alloc] initWithBuyArray:@[@"1",@"0.7",@"0.65",@"0.6",@"0.55",@"0.5",@"0.4",@"0.2",@"0.1",@"0"] sellArray:@[@"0",@"0.2",@"0.3",@"0.4",@"1"]];
     }
     
-    return _deepBGView;
+    return _deepView;
 }
+
 
 @end
