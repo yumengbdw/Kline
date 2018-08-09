@@ -38,7 +38,7 @@
     CGContextFillPath(ctx);
     
     // 画提示框
-    CGContextSetStrokeColorWithColor(ctx, [UIColor blueColor].CGColor);
+    CGContextSetStrokeColorWithColor(ctx,  [UIColor colorWithRed:38/255.0 green:43/255.0 blue:65/255.0 alpha:1].CGColor);
     CGContextSetLineWidth(ctx, 0.5);
     CGFloat originX = arcX - 110;
     CGFloat originY = arcY - radius;

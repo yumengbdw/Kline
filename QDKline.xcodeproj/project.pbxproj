@@ -25,6 +25,8 @@
 		BBFDAC0A211C04D400C1C269 /* QDCriticalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDAC09211C04D400C1C269 /* QDCriticalModel.m */; };
 		BBFDAC0D211C060400C1C269 /* QDDeepViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDAC0C211C060400C1C269 /* QDDeepViewModel.m */; };
 		BBFDAC10211C062300C1C269 /* QDDeepItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDAC0F211C062300C1C269 /* QDDeepItemModel.m */; };
+		BBFDAC13211C185A00C1C269 /* deevView.png in Resources */ = {isa = PBXBuildFile; fileRef = BBFDAC12211C185A00C1C269 /* deevView.png */; };
+		BBFDAC15211C188300C1C269 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BBFDAC14211C188300C1C269 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		BBFDAC0C211C060400C1C269 /* QDDeepViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDDeepViewModel.m; sourceTree = "<group>"; };
 		BBFDAC0E211C062300C1C269 /* QDDeepItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDDeepItemModel.h; sourceTree = "<group>"; };
 		BBFDAC0F211C062300C1C269 /* QDDeepItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDDeepItemModel.m; sourceTree = "<group>"; };
+		BBFDAC12211C185A00C1C269 /* deevView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deevView.png; sourceTree = "<group>"; };
+		BBFDAC14211C188300C1C269 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 		BBFDABD42119717F00C1C269 /* QDKline */ = {
 			isa = PBXGroup;
 			children = (
+				BBFDAC11211C183B00C1C269 /* image */,
 				BBFDABEB211971A000C1C269 /* DeepView */,
 				BBFDABD52119717F00C1C269 /* AppDelegate.h */,
 				BBFDABD62119717F00C1C269 /* AppDelegate.m */,
@@ -124,6 +129,7 @@
 				BBFDABE02119718200C1C269 /* LaunchScreen.storyboard */,
 				BBFDABE32119718200C1C269 /* Info.plist */,
 				BBFDABE42119718200C1C269 /* main.m */,
+				BBFDAC14211C188300C1C269 /* README.md */,
 			);
 			path = QDKline;
 			sourceTree = "<group>";
@@ -170,6 +176,14 @@
 				BBFDAC0F211C062300C1C269 /* QDDeepItemModel.m */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		BBFDAC11211C183B00C1C269 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				BBFDAC12211C185A00C1C269 /* deevView.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +246,8 @@
 			files = (
 				BBFDABE22119718200C1C269 /* LaunchScreen.storyboard in Resources */,
 				BBFDABDF2119718200C1C269 /* Assets.xcassets in Resources */,
+				BBFDAC15211C188300C1C269 /* README.md in Resources */,
+				BBFDAC13211C185A00C1C269 /* deevView.png in Resources */,
 				BBFDABDD2119717F00C1C269 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
