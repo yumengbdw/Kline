@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QDDeepViewModel.h"
 
 @interface QDDeepView : UIView
 
-- (instancetype)initWithBuyArray:(NSArray*)buyArray sellArray:(NSArray *)sellArray;
+@property (nonatomic, strong) QDDeepViewModel *deepViewModel;
 
 @end

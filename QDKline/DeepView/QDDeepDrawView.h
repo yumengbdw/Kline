@@ -7,11 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-typedef NS_ENUM(NSInteger,DeepViewType) {
-    DeepViewTypeBuy = 1,    //K线
-    DeepViewTypeSell
-};
+#import "QDKLineDefine.h"
 
 @interface QDDeepDrawView : UIView
 
@@ -19,6 +15,12 @@ typedef NS_ENUM(NSInteger,DeepViewType) {
 @property (nonatomic, assign) DeepViewType deepType;
 
 
-- (NSArray *)configDataDrawModels:(NSArray *)drawLineModels  maxValue:(CGFloat)maxValue minValue:(CGFloat)minValue;
+/**
+ 画图，返回每个 model 对应的坐标
+
+ @param dict 最大值，最小值maxValuX,minValuX,maxValuY,minValuY
+ @return 坐标 Array
+ */
+- (NSArray *)configDataDrawModels:(NSArray *)drawLineModels valueDict:(id)model;
 
 @end

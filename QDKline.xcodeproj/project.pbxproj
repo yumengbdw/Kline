@@ -19,6 +19,12 @@
 		BBFDABF7211971C700C1C269 /* QDDeepDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABF1211971C600C1C269 /* QDDeepDrawView.m */; };
 		BBFDABFB21197AD700C1C269 /* QDDeepVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABFA21197AD700C1C269 /* QDDeepVC.m */; };
 		BBFDABFE211983AC00C1C269 /* QDDeepView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABFD211983AC00C1C269 /* QDDeepView.m */; };
+		BBFDAC00211AB78B00C1C269 /* QDKLineDefine.h in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABFF211AB78B00C1C269 /* QDKLineDefine.h */; };
+		BBFDAC03211AD88C00C1C269 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDAC02211AD88C00C1C269 /* Utils.m */; };
+		BBFDAC06211AEA1E00C1C269 /* QDDeepCursorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDAC05211AEA1E00C1C269 /* QDDeepCursorView.m */; };
+		BBFDAC0A211C04D400C1C269 /* QDCriticalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDAC09211C04D400C1C269 /* QDCriticalModel.m */; };
+		BBFDAC0D211C060400C1C269 /* QDDeepViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDAC0C211C060400C1C269 /* QDDeepViewModel.m */; };
+		BBFDAC10211C062300C1C269 /* QDDeepItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDAC0F211C062300C1C269 /* QDDeepItemModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +51,17 @@
 		BBFDABFA21197AD700C1C269 /* QDDeepVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDDeepVC.m; sourceTree = "<group>"; };
 		BBFDABFC211983AC00C1C269 /* QDDeepView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDDeepView.h; sourceTree = "<group>"; };
 		BBFDABFD211983AC00C1C269 /* QDDeepView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDDeepView.m; sourceTree = "<group>"; };
+		BBFDABFF211AB78B00C1C269 /* QDKLineDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDKLineDefine.h; sourceTree = "<group>"; };
+		BBFDAC01211AD88C00C1C269 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		BBFDAC02211AD88C00C1C269 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		BBFDAC04211AEA1E00C1C269 /* QDDeepCursorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDDeepCursorView.h; sourceTree = "<group>"; };
+		BBFDAC05211AEA1E00C1C269 /* QDDeepCursorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDDeepCursorView.m; sourceTree = "<group>"; };
+		BBFDAC08211C04D400C1C269 /* QDCriticalModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDCriticalModel.h; sourceTree = "<group>"; };
+		BBFDAC09211C04D400C1C269 /* QDCriticalModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDCriticalModel.m; sourceTree = "<group>"; };
+		BBFDAC0B211C060400C1C269 /* QDDeepViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDDeepViewModel.h; sourceTree = "<group>"; };
+		BBFDAC0C211C060400C1C269 /* QDDeepViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDDeepViewModel.m; sourceTree = "<group>"; };
+		BBFDAC0E211C062300C1C269 /* QDDeepItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDDeepItemModel.h; sourceTree = "<group>"; };
+		BBFDAC0F211C062300C1C269 /* QDDeepItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDDeepItemModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +131,7 @@
 		BBFDABEB211971A000C1C269 /* DeepView */ = {
 			isa = PBXGroup;
 			children = (
+				BBFDAC07211C049500C1C269 /* model */,
 				BBFDABF821197AAB00C1C269 /* vc */,
 				BBFDABF3211971C600C1C269 /* QDDeepDrawView.h */,
 				BBFDABF1211971C600C1C269 /* QDDeepDrawView.m */,
@@ -123,6 +141,11 @@
 				BBFDABED211971C500C1C269 /* QDDeepBackGroundView.m */,
 				BBFDABFC211983AC00C1C269 /* QDDeepView.h */,
 				BBFDABFD211983AC00C1C269 /* QDDeepView.m */,
+				BBFDABFF211AB78B00C1C269 /* QDKLineDefine.h */,
+				BBFDAC01211AD88C00C1C269 /* Utils.h */,
+				BBFDAC02211AD88C00C1C269 /* Utils.m */,
+				BBFDAC04211AEA1E00C1C269 /* QDDeepCursorView.h */,
+				BBFDAC05211AEA1E00C1C269 /* QDDeepCursorView.m */,
 			);
 			path = DeepView;
 			sourceTree = "<group>";
@@ -134,6 +157,19 @@
 				BBFDABFA21197AD700C1C269 /* QDDeepVC.m */,
 			);
 			path = vc;
+			sourceTree = "<group>";
+		};
+		BBFDAC07211C049500C1C269 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BBFDAC08211C04D400C1C269 /* QDCriticalModel.h */,
+				BBFDAC09211C04D400C1C269 /* QDCriticalModel.m */,
+				BBFDAC0B211C060400C1C269 /* QDDeepViewModel.h */,
+				BBFDAC0C211C060400C1C269 /* QDDeepViewModel.m */,
+				BBFDAC0E211C062300C1C269 /* QDDeepItemModel.h */,
+				BBFDAC0F211C062300C1C269 /* QDDeepItemModel.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +267,15 @@
 				BBFDABDA2119717F00C1C269 /* ViewController.m in Sources */,
 				BBFDABFB21197AD700C1C269 /* QDDeepVC.m in Sources */,
 				BBFDABF7211971C700C1C269 /* QDDeepDrawView.m in Sources */,
+				BBFDAC0D211C060400C1C269 /* QDDeepViewModel.m in Sources */,
+				BBFDAC03211AD88C00C1C269 /* Utils.m in Sources */,
 				BBFDABFE211983AC00C1C269 /* QDDeepView.m in Sources */,
+				BBFDAC06211AEA1E00C1C269 /* QDDeepCursorView.m in Sources */,
+				BBFDAC10211C062300C1C269 /* QDDeepItemModel.m in Sources */,
+				BBFDAC00211AB78B00C1C269 /* QDKLineDefine.h in Sources */,
 				BBFDABF6211971C700C1C269 /* QDCursorView.m in Sources */,
 				BBFDABE52119718200C1C269 /* main.m in Sources */,
+				BBFDAC0A211C04D400C1C269 /* QDCriticalModel.m in Sources */,
 				BBFDABF5211971C700C1C269 /* QDDeepBackGroundView.m in Sources */,
 				BBFDABD72119717F00C1C269 /* AppDelegate.m in Sources */,
 			);
