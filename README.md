@@ -1,6 +1,6 @@
 # k 线图，深度图，分时图
 
-目前完成深度图
+## 目前完成深度图 其他还在画
 
 ![深度图](https://github.com/yumengbdw/Kline/blob/master/QDKline/image/deevView.png)
 
@@ -36,6 +36,7 @@ unitY = maxValue/5;
 
 
 完善的应该支持左右滑动的。以及放大缩小，并且左右滑动过程中，把移除屏幕外的 release 掉。
+
 
 长按显示十字指示线的时候
 
