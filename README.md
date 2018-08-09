@@ -25,6 +25,7 @@ unitY = maxValue/4;
 
 
 ##分时图
+
 因为有成交量的柱状图，所以每个 `model` 的宽度固定的。
 - 不可左右滑动 `width/count` 确定 `model` 宽度
 - 可以左右滑动 此时每一个 `model`数据对应宽度固定，
