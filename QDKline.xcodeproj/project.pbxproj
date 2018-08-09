@@ -100,6 +100,7 @@
 		BBFDABC92119717F00C1C269 = {
 			isa = PBXGroup;
 			children = (
+				BBFDAC14211C188300C1C269 /* README.md */,
 				BBFDABD42119717F00C1C269 /* QDKline */,
 				BBFDABD32119717F00C1C269 /* Products */,
 				1F03D6326BD2727079743C53 /* Pods */,
@@ -129,7 +130,6 @@
 				BBFDABE02119718200C1C269 /* LaunchScreen.storyboard */,
 				BBFDABE32119718200C1C269 /* Info.plist */,
 				BBFDABE42119718200C1C269 /* main.m */,
-				BBFDAC14211C188300C1C269 /* README.md */,
 			);
 			path = QDKline;
 			sourceTree = "<group>";
