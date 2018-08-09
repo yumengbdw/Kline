@@ -1,6 +1,6 @@
 # k 线图，深度图，分时图
 
-## 目前完成深度图
+## 目前完成深度图 其他还在画
 
 ![深度图](https://github.com/yumengbdw/Kline/blob/master/QDKline/image/deevView.png)
 
@@ -33,6 +33,7 @@ unitY = maxValue/5;
 - 不可左右滑动 `width/count` 确定 `model` 宽度
 - 可以左右滑动 此时每一个 `model`数据对应宽度固定，
 ``ScrollView  content的总宽度 = 单位宽度 * count。``
+
 
 
 完善的应该支持左右滑动的。以及放大缩小
