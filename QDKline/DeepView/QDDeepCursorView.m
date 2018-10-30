@@ -57,10 +57,9 @@
     CGContextFillRect(ctx, CGRectMake(originX, originY, 110, 50));
     
     
-    
     NSString *priceString = [NSString stringWithFormat:@"委托价:%@",[self.selectModel objectForKey:@"price"]];
     NSString *volumeString = [NSString stringWithFormat:@"累计:%@",[self.selectModel objectForKey:@"volume"]];
-    NSDictionary *attribute = @{NSFontAttributeName:[UIFont systemFontOfSize:9],NSForegroundColorAttributeName:[UIColor colorWithRed:96/255.0 green:103/255.0 blue:135/255.0 alpha:1.0f]};
+    NSDictionary *attribute = @{NSFontAttributeName:[UIFont systemFontOfSize:9],NSForegroundColorAttributeName:[UIColor whiteColor]};
 
     CGSize priceSize = [Utils rectOfNSString:priceString attribute:attribute].size;
     CGSize volumeSize = [Utils rectOfNSString:volumeString attribute:attribute].size;

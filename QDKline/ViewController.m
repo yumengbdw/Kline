@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "QDDeepVC.h"
 #import "Masonry.h"
+#import "QDTimeViewVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -70,7 +71,7 @@
 
 - (NSMutableArray *)dataSource{
     if (!_dataSource) {
-        _dataSource = [[NSMutableArray alloc] initWithObjects:@{@"title":@"深度图",@"VCName":[[QDDeepVC class] description]},@{@"title":@"分时图",@"VCName":[[QDDeepVC class] description]},@{@"title":@" k线图",@"VCName":[[QDDeepVC class] description]}, nil];
+        _dataSource = [[NSMutableArray alloc] initWithObjects:@{@"title":@"深度图",@"VCName":[[QDDeepVC class] description]},@{@"title":@"分时图",@"VCName":[[QDTimeViewVC class] description]},@{@"title":@" k线图",@"VCName":[[QDDeepVC class] description]}, nil];
     }
     return _dataSource;
 }

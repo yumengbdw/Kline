@@ -34,7 +34,6 @@
 - (instancetype)init{
     self = [super init];
     if (self) {
-        self.backgroundColor = [UIColor blackColor];
         [self initView];
         [self initMasonry];
     }

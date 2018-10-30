@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5B8CA01F12B47C8698AD4035 /* libPods-QDKline.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3BC62E0DC561B51CC0C718 /* libPods-QDKline.a */; };
+		BB9A63D12127E7BC00CA6B6E /* QDTimeViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A63D02127E7BC00CA6B6E /* QDTimeViewVC.m */; };
+		BB9A63D42127E7E900CA6B6E /* QDTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A63D32127E7E900CA6B6E /* QDTimeView.m */; };
+		BB9A63E1212BFF6E00CA6B6E /* minuteData.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB9A63DF212BFF6E00CA6B6E /* minuteData.plist */; };
+		BB9A63E3212C085D00CA6B6E /* minute.json in Resources */ = {isa = PBXBuildFile; fileRef = BB9A63E2212C085C00CA6B6E /* minute.json */; };
+		BB9A63E6212C08B600CA6B6E /* QDKlineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A63E5212C08B600CA6B6E /* QDKlineModel.m */; };
+		BB9A63EA212C125000CA6B6E /* NetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A63E8212C125000CA6B6E /* NetWorking.m */; };
 		BBFDABD72119717F00C1C269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABD62119717F00C1C269 /* AppDelegate.m */; };
 		BBFDABDA2119717F00C1C269 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFDABD92119717F00C1C269 /* ViewController.m */; };
 		BBFDABDD2119717F00C1C269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFDABDB2119717F00C1C269 /* Main.storyboard */; };
@@ -33,6 +39,16 @@
 		7DB173E44B98762861BD64E1 /* Pods-QDKline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDKline.release.xcconfig"; path = "Pods/Target Support Files/Pods-QDKline/Pods-QDKline.release.xcconfig"; sourceTree = "<group>"; };
 		81DA7B1B5BA4D62DD24DD802 /* Pods-QDKline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDKline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QDKline/Pods-QDKline.debug.xcconfig"; sourceTree = "<group>"; };
 		AB3BC62E0DC561B51CC0C718 /* libPods-QDKline.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QDKline.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9A63CF2127E7BC00CA6B6E /* QDTimeViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDTimeViewVC.h; sourceTree = "<group>"; };
+		BB9A63D02127E7BC00CA6B6E /* QDTimeViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDTimeViewVC.m; sourceTree = "<group>"; };
+		BB9A63D22127E7E900CA6B6E /* QDTimeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDTimeView.h; sourceTree = "<group>"; };
+		BB9A63D32127E7E900CA6B6E /* QDTimeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDTimeView.m; sourceTree = "<group>"; };
+		BB9A63DF212BFF6E00CA6B6E /* minuteData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = minuteData.plist; sourceTree = "<group>"; };
+		BB9A63E2212C085C00CA6B6E /* minute.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = minute.json; sourceTree = "<group>"; };
+		BB9A63E4212C08B600CA6B6E /* QDKlineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDKlineModel.h; sourceTree = "<group>"; };
+		BB9A63E5212C08B600CA6B6E /* QDKlineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDKlineModel.m; sourceTree = "<group>"; };
+		BB9A63E8212C125000CA6B6E /* NetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorking.m; sourceTree = "<group>"; };
+		BB9A63E9212C125000CA6B6E /* NetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorking.h; sourceTree = "<group>"; };
 		BBFDABD22119717F00C1C269 /* QDKline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QDKline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFDABD52119717F00C1C269 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBFDABD62119717F00C1C269 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,9 +113,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BB9A63CE2127E77C00CA6B6E /* TimeView */ = {
+			isa = PBXGroup;
+			children = (
+				BB9A63CF2127E7BC00CA6B6E /* QDTimeViewVC.h */,
+				BB9A63D02127E7BC00CA6B6E /* QDTimeViewVC.m */,
+				BB9A63D22127E7E900CA6B6E /* QDTimeView.h */,
+				BB9A63D32127E7E900CA6B6E /* QDTimeView.m */,
+				BB9A63E4212C08B600CA6B6E /* QDKlineModel.h */,
+				BB9A63E5212C08B600CA6B6E /* QDKlineModel.m */,
+			);
+			path = TimeView;
+			sourceTree = "<group>";
+		};
+		BB9A63DC212BFF3900CA6B6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB9A63DF212BFF6E00CA6B6E /* minuteData.plist */,
+				BB9A63E2212C085C00CA6B6E /* minute.json */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		BB9A63E7212C122F00CA6B6E /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				BB9A63E9212C125000CA6B6E /* NetWorking.h */,
+				BB9A63E8212C125000CA6B6E /* NetWorking.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
 		BBFDABC92119717F00C1C269 = {
 			isa = PBXGroup;
 			children = (
+				BB9A63DC212BFF3900CA6B6E /* Support Files */,
 				BBFDAC14211C188300C1C269 /* README.md */,
 				BBFDABD42119717F00C1C269 /* QDKline */,
 				BBFDABD32119717F00C1C269 /* Products */,
@@ -119,6 +167,8 @@
 		BBFDABD42119717F00C1C269 /* QDKline */ = {
 			isa = PBXGroup;
 			children = (
+				BB9A63E7212C122F00CA6B6E /* NetWork */,
+				BB9A63CE2127E77C00CA6B6E /* TimeView */,
 				BBFDAC11211C183B00C1C269 /* image */,
 				BBFDABEB211971A000C1C269 /* DeepView */,
 				BBFDABD52119717F00C1C269 /* AppDelegate.h */,
@@ -244,9 +294,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB9A63E1212BFF6E00CA6B6E /* minuteData.plist in Resources */,
 				BBFDABE22119718200C1C269 /* LaunchScreen.storyboard in Resources */,
 				BBFDABDF2119718200C1C269 /* Assets.xcassets in Resources */,
 				BBFDAC15211C188300C1C269 /* README.md in Resources */,
+				BB9A63E3212C085D00CA6B6E /* minute.json in Resources */,
 				BBFDAC13211C185A00C1C269 /* deevView.png in Resources */,
 				BBFDABDD2119717F00C1C269 /* Main.storyboard in Resources */,
 			);
@@ -286,7 +338,11 @@
 				BBFDAC0D211C060400C1C269 /* QDDeepViewModel.m in Sources */,
 				BBFDAC03211AD88C00C1C269 /* Utils.m in Sources */,
 				BBFDABFE211983AC00C1C269 /* QDDeepView.m in Sources */,
+				BB9A63D42127E7E900CA6B6E /* QDTimeView.m in Sources */,
+				BB9A63EA212C125000CA6B6E /* NetWorking.m in Sources */,
+				BB9A63E6212C08B600CA6B6E /* QDKlineModel.m in Sources */,
 				BBFDAC06211AEA1E00C1C269 /* QDDeepCursorView.m in Sources */,
+				BB9A63D12127E7BC00CA6B6E /* QDTimeViewVC.m in Sources */,
 				BBFDAC10211C062300C1C269 /* QDDeepItemModel.m in Sources */,
 				BBFDAC00211AB78B00C1C269 /* QDKLineDefine.h in Sources */,
 				BBFDABF6211971C700C1C269 /* QDCursorView.m in Sources */,

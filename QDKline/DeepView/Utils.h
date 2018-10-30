@@ -11,9 +11,5 @@
 
 @interface Utils : NSObject
 
-+ (UIColor *)colorWithHex:(UInt32)hex alpha:(CGFloat)alpha;
-
-+ (UIColor *)colorWithHex:(UInt32)hex;
-
 + (CGRect)rectOfNSString:(NSString *)string attribute:(NSDictionary *)attribute;
 @end

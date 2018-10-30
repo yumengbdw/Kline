@@ -23,7 +23,8 @@
     self = [super init];
     if (self) {
         [self initView];
-//        self.backgroundColor = [UIColor colorWithWhite:1 alpha:0.2];
+        //        181C2A  rgb(24,28,42)
+        self.backgroundColor = [UIColor colorWithRed:24/255.0 green:28/255.0 blue:42/255.0 alpha:1];
 
     }
     return self;
